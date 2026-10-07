@@ -16,7 +16,7 @@
 
 ## 🎯 About Me
 
-- 🎓 Graduating in **2026** with a CGPA of **8.38**
+- 🎓 Graduated in **2026** with a CGPA of **8.50**
 - 💼 Looking for **Java Developer / Software Engineer fresher roles in Hyderabad**
 - 🔬 Built and published a real-time **AI exam proctoring system** (IEEE AIEI 2026)
 - 🏥 Building the **Patient Management module** of a team-built **Hospital Management System** (Java, Spring Boot, MySQL)
