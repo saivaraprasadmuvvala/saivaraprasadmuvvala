@@ -19,31 +19,56 @@
 - 🎓 Graduating in **2026** with a CGPA of **8.38**
 - 💼 Looking for **Java Developer / Software Engineer fresher roles in Hyderabad**
 - 🔬 Built and published a real-time **AI exam proctoring system** (IEEE AIEI 2026)
-- 🧠 Currently working on **emotion detection from facial expressions** (ML + computer vision)
+- 🏥 Building the **Patient Management module** of a team-built **Hospital Management System** (Java, Spring Boot, MySQL)
+- 🧠 Also working on **emotion detection from facial expressions** (ML + computer vision)
 - 🎨 Outside code: music, reading, workouts, painting and editing
 
 ## 🛠️ Tech Stack
 
 <p>
-  <img src="https://skillicons.dev/icons?i=java,python,c,cpp,flask,fastapi,react,vite,ts,js,mysql,sqlite,git,github&perline=7" alt="Tech stack"/>
+  <img src="https://skillicons.dev/icons?i=java,spring,python,c,cpp,hibernate,flask,fastapi,react,vite,ts,js,mysql,sqlite,git,github&perline=8" alt="Tech stack"/>
 </p>
 
 | Area | Tools |
 |---|---|
 | **Languages** | Java, Python, C, C++ |
+| **Java Backend** | Spring Boot, Spring MVC, Spring Data JPA, Hibernate, REST APIs, Maven |
 | **ML / Computer Vision** | MediaPipe, YOLOv8, OpenCV, MTCNN, RetinaFace, dlib |
 | **Web / Backend** | Flask, FastAPI, Streamlit, React, Vite, TypeScript, WebRTC |
 | **Databases** | MySQL, SQLite |
+| **Tools** | Git, GitHub, Postman, Eclipse, VS Code, MySQL Workbench |
 
 ## 🚀 Featured Projects
 
 | Project | What it does | Stack |
 |---|---|---|
 | **AI Proctoring System** | Real-time exam proctoring: face, gaze and phone detection with a human-in-the-loop instructor dashboard. **99.0%** phone-detection precision, **91.3%** gaze accuracy, **18–22 FPS**, sub-300ms latency | WebRTC, MediaPipe, YOLOv8, Streamlit, SQLite |
+| **Hospital Management System** *(team project, in progress)* | Digitizes hospital operations. I own the **Patient Management module**: patient CRUD REST APIs, name search and filters | Java, Spring Boot, Spring Data JPA, Hibernate, MySQL |
 | **Recipes Explorer** | Search and browse **8,451+ recipes**. [Live demo](https://recipies-project.onrender.com) | FastAPI, SQLite, vanilla JS |
 | **Online Organic Farm Store** | E-commerce app built during my Prodigy InfoTech internship | Flask, MySQL |
 | **Portfolio Website** | Personal site, deployed with GitHub Pages. [View](https://saivaraprasadmuvvala.github.io/sai-visions-nexus) | React, Vite, TypeScript |
 | **Decoding Facial Expressions** *(in progress)* | Emotion detection from facial cues | Python, ML, CV |
+
+## 🏥 Spotlight: Hospital Management System
+
+> A **group project** to replace manual hospital paperwork with a centralized digital system. **My part: the Patient Management module.**
+
+**Backend flow**
+
+```text
+Frontend / Postman → PatientController → PatientService → PatientRepository → Spring Data JPA / Hibernate → MySQL
+```
+
+**What I built (Patient Management)**
+
+- 🧱 **Patient entity** mapped to MySQL: personal, medical, contact and guardian details, status, assigned doctor and appointment date
+- 🔌 **REST CRUD APIs** under `/api/patients` (`POST`, `GET`, `GET /{id}`, `PUT /{id}`, `DELETE /{id}`)
+- 🔎 **Search** patients by first or last name (case-insensitive)
+- 🎯 **Filters** by blood group and status
+- 🗄️ **Spring Data JPA repositories** with derived query methods, backed by MySQL
+- 🧪 **API testing** with Postman
+
+**Planned next:** input validation, global exception handling, Spring Security with role-based access, and more modules built by the team (appointments, medical records, billing).
 
 ## 📄 Publication
 
